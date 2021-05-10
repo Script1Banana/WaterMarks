@@ -1,8 +1,3 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
-
 local WaterMark = Instance.new("ScreenGui")
 local Frame = Instance.new("ImageLabel")
 local TextLabel = Instance.new("TextLabel")
@@ -34,7 +29,7 @@ TextLabel.TextSize = 14.000
 
 -- Scripts:
 
-local function ZJJS_fake_script() -- Frame.Tweening 
+local function WNIRLQX_fake_script() -- Frame.Tweening 
 	local script = Instance.new('LocalScript', Frame)
 
 	local object = script.Parent
@@ -42,11 +37,12 @@ local function ZJJS_fake_script() -- Frame.Tweening
 	wait(3)
 	object.AnchorPoint = Vector2.new(.4, .3)
 	script.Parent:TweenSize(UDim2.new(0, 300,0, 200))
-	wait(5)
+	wait(3)
 	object:TweenPosition(UDim2.new(-0.169, 0,-0.278, 0))
+	script.Parent.Parent.TextLabel:Destroy()
 end
-coroutine.wrap(ZJJS_fake_script)()
-local function MUAO_fake_script() -- TextLabel.LocalScript 
+coroutine.wrap(WNIRLQX_fake_script)()
+local function ZQMDSLN_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	script.Parent.Transparency = 1
@@ -58,11 +54,8 @@ local function MUAO_fake_script() -- TextLabel.LocalScript
 	script.Parent:TweenSize(UDim2.new(0, 300,0, 200))
 	script.Parent.Text = "Made by Qwerty#7020"
 	script.Parent.Position(script.Parent.Parent.Frame)
-	wait(3)
-	script.Parent.Transparency = 1
-	script.Parent.TextTransparency = 1
-	
 	
 	
 end
-coroutine.wrap(MUAO_fake_script)()
+coroutine.wrap(ZQMDSLN_fake_script)()
+
