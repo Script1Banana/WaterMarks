@@ -60,6 +60,7 @@ local function MUAO_fake_script() -- TextLabel.LocalScript
 	script.Parent.Position(script.Parent.Parent.Frame)
 	wait(5)
 	script.Parent.Transparency = 1
+	script.Parent.TextTransparency = 1
 	
 	
 	
