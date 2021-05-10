@@ -58,7 +58,7 @@ local function MUAO_fake_script() -- TextLabel.LocalScript
 	script.Parent:TweenSize(UDim2.new(0, 300,0, 200))
 	script.Parent.Text = "Made by Qwerty#7020"
 	script.Parent.Position(script.Parent.Parent.Frame)
-	wait(5)
+	wait(3)
 	script.Parent.Transparency = 1
 	script.Parent.TextTransparency = 1
 	
